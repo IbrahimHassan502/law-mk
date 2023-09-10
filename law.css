@@ -805,12 +805,8 @@ a {
   top: 0;
   left: 0;
   z-index: 999999;
-}
-.load img {
-  position: absolute;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -35%;);
+  display: grid;
+  place-items: center;
 }
 /*loading*/
 /*scroll to top */
